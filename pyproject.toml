@@ -1,0 +1,28 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name        = "excitonpy"
+version     = "0.1.0"
+description = "Python port of the Exciton F90 code for conjugated polymer CI Hamiltonians"
+readme      = "README.md"
+authors     = [{ name = "Eric R. Bittner", email = "bittner@uh.edu" }]
+license     = { file = "LICENSE" }
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+keywords     = ["exciton", "polaron", "conjugated polymer", "quantum chemistry",
+                "nonlinear spectroscopy", "CI Hamiltonian"]
+dependencies = ["numpy", "scipy"]
+
+[project.optional-dependencies]
+qudpy = ["qutip", "ufss", "matplotlib"]
+dev   = ["pytest", "pytest-cov"]
+
+[project.urls]
+Homepage = "https://github.com/ebitnet65/ExcitonPy"
