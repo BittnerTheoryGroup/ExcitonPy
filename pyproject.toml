@@ -25,4 +25,4 @@ qudpy = ["qutip", "ufss", "matplotlib"]
 dev   = ["pytest", "pytest-cov"]
 
 [project.urls]
-Homepage = "https://github.com/ebitnet65/ExcitonPy"
+Homepage = "https://github.com/BittnerTheoryGroup/ExcitonPy"
