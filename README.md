@@ -10,7 +10,7 @@ ExcitonPy builds monoexcited configuration-interaction (CI) Hamiltonians for con
 - Phonon normal modes and el–ph coupling derivatives
 - Singlet and triplet spin states
 
-It is designed to feed directly into **[QuDPy](https://github.com/ebitnet65/QuDPy)** for computing nonlinear optical spectra (2DCS, etc.) via the Lindblad master equation.
+It is designed to feed directly into **[QuDPy](https://github.com/BittnerTheoryGroup/QuDPy)** for computing nonlinear optical spectra (2DCS, etc.) via the Lindblad master equation.
 
 ---
 
@@ -27,7 +27,7 @@ It is designed to feed directly into **[QuDPy](https://github.com/ebitnet65/QuDP
 
 ```bash
 pip install numpy scipy
-git clone https://github.com/ebitnet65/ExcitonPy.git
+git clone https://github.com/BittnerTheoryGroup/ExcitonPy.git
 cd ExcitonPy
 pip install -e .
 ```
